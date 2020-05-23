@@ -20,6 +20,7 @@ public class Read {
     }
     public void toArray(){
         Main.allReads[Main.allReadsCounter]=this;
+        Main.allReadsCounter++;
     }
     public String toString(){
         String output = "platform: " + this.platform + "\nusername: " + this.username + "\nemail: " + this.email + "\npassword: " + password + "\n";
